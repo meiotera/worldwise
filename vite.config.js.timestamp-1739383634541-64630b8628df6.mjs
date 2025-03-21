@@ -1,0 +1,19 @@
+// vite.config.js
+import { defineConfig } from "file:///home/renan/Documentos/treinamento-react/11-worldwise/node_modules/vite/dist/node/index.js";
+import react from "file:///home/renan/Documentos/treinamento-react/11-worldwise/node_modules/@vitejs/plugin-react/dist/index.mjs";
+import eslint from "file:///home/renan/Documentos/treinamento-react/11-worldwise/node_modules/vite-plugin-eslint/dist/index.mjs";
+var vite_config_default = defineConfig({
+  plugins: [
+    react(),
+    eslint({
+      emitWarning: true,
+      // Emite avisos em vez de erros
+      emitError: false
+      // Não emite erros
+    })
+  ]
+});
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcuanMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCIvaG9tZS9yZW5hbi9Eb2N1bWVudG9zL3RyZWluYW1lbnRvLXJlYWN0LzExLXdvcmxkd2lzZVwiO2NvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9maWxlbmFtZSA9IFwiL2hvbWUvcmVuYW4vRG9jdW1lbnRvcy90cmVpbmFtZW50by1yZWFjdC8xMS13b3JsZHdpc2Uvdml0ZS5jb25maWcuanNcIjtjb25zdCBfX3ZpdGVfaW5qZWN0ZWRfb3JpZ2luYWxfaW1wb3J0X21ldGFfdXJsID0gXCJmaWxlOi8vL2hvbWUvcmVuYW4vRG9jdW1lbnRvcy90cmVpbmFtZW50by1yZWFjdC8xMS13b3JsZHdpc2Uvdml0ZS5jb25maWcuanNcIjtpbXBvcnQgeyBkZWZpbmVDb25maWcgfSBmcm9tIFwidml0ZVwiO1xuaW1wb3J0IHJlYWN0IGZyb20gXCJAdml0ZWpzL3BsdWdpbi1yZWFjdFwiO1xuaW1wb3J0IGVzbGludCBmcm9tIFwidml0ZS1wbHVnaW4tZXNsaW50XCI7XG5cbmV4cG9ydCBkZWZhdWx0IGRlZmluZUNvbmZpZyh7XG4gIHBsdWdpbnM6IFtcbiAgICByZWFjdCgpLFxuICAgIGVzbGludCh7XG4gICAgICBlbWl0V2FybmluZzogdHJ1ZSwgLy8gRW1pdGUgYXZpc29zIGVtIHZleiBkZSBlcnJvc1xuICAgICAgZW1pdEVycm9yOiBmYWxzZSwgLy8gTlx1MDBFM28gZW1pdGUgZXJyb3NcbiAgICB9KSxcbiAgXSxcbn0pO1xuIl0sCiAgIm1hcHBpbmdzIjogIjtBQUFpVixTQUFTLG9CQUFvQjtBQUM5VyxPQUFPLFdBQVc7QUFDbEIsT0FBTyxZQUFZO0FBRW5CLElBQU8sc0JBQVEsYUFBYTtBQUFBLEVBQzFCLFNBQVM7QUFBQSxJQUNQLE1BQU07QUFBQSxJQUNOLE9BQU87QUFBQSxNQUNMLGFBQWE7QUFBQTtBQUFBLE1BQ2IsV0FBVztBQUFBO0FBQUEsSUFDYixDQUFDO0FBQUEsRUFDSDtBQUNGLENBQUM7IiwKICAibmFtZXMiOiBbXQp9Cg==
